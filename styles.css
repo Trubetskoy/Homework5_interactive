@@ -17,15 +17,19 @@ h1 {
 .new {
     margin-top: 15px;
 }
-
+.new p {
+    margin-top: 15px;
+    font-size: 20px;
+}
 .checked{
     margin-top: 15px;
 }
 
-.checked input {
+.checked p {
     margin-top: 15px;
     text-decoration: line-through;
-    background-color: rgb(198, 231, 218)
+    font-size: 20px;
+   
 }
 
 .paragraph {
@@ -49,6 +53,14 @@ h1 {
 }
 
 .taskInput {
+    width: 235px;
+    margin-top: 15px;
+    font-size: 16px;
+    padding: 5px;
+    display: none;
+}
+
+.taskInputEdit {
     width: 235px;
     margin-top: 15px;
     font-size: 16px;
