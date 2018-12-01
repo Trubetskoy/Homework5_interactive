@@ -9,7 +9,7 @@ const enter = document.getElementById('enter');
 
 
 let startRender = function () {
-    for (let i=0; toDoList.length; i++){
+    for (let i=0; i < toDoList.length; i++){
         render(toDoList[i])
     }
 };
@@ -20,7 +20,7 @@ function render(task) {
     let node3 = document.createTextNode('delete');
     let editInput = document.createElement('input');
     let toDoText = document.createElement('p');
-    let toDoTask = document.createTextNode (task.value);
+    let toDoTask = document.createTextNode(task.value);
     let editButton = document.createElement('button');
     let deleteButton = document.createElement('button');
     let checkBox = document.createElement('input');
